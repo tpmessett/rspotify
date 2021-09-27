@@ -1,3 +1,5 @@
+I Forked this Gem as I kept getting an old version of Rest-Client with the default gem install which couldn't be updated due to dependencies in Rspotify. This led to the Rest-Client failing with 'fetch': key not found: :ciphers error on authentication. I have updated the dependency on Rest client to be => 2.0.2 as opposed to ~> 2.0.2 (original) which has solved the issue.
+
 # RSpotify
 
 [![Gem Version](https://badge.fury.io/rb/rspotify.svg)](http://badge.fury.io/rb/rspotify)
